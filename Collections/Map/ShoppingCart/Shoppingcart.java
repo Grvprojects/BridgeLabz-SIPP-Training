@@ -7,14 +7,22 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
+<<<<<<< HEAD
 public class Shoppingcart {
+=======
+public class ShoppingCart {
+>>>>>>> 7620f1f (add files)
     // HashMap to store product prices (Product Name -> Price)
     private Map<String, Double> productPrices;
 
     // LinkedHashMap to maintain the order of items added to the cart (Product Name -> Quantity)
     private LinkedHashMap<String, Integer> cartItems;
 
+<<<<<<< HEAD
     public Shoppingcart() {
+=======
+    public ShoppingCart() {
+>>>>>>> 7620f1f (add files)
         this.productPrices = new HashMap<>();
         this.cartItems = new LinkedHashMap<>();
     }
@@ -180,7 +188,11 @@ public class Shoppingcart {
 
 
     public static void main(String[] args) {
+<<<<<<< HEAD
         Shoppingcart cart = new Shoppingcart();
+=======
+        ShoppingCart cart = new ShoppingCart();
+>>>>>>> 7620f1f (add files)
 
         // 1. Add products to the system's catalog
         System.out.println("--- Adding Products to Catalog ---");
